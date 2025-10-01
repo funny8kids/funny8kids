@@ -1,0 +1,127 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6d4ff" />
+      <stop offset="100%" stop-color="#d8c2ff" />
+    </linearGradient>
+    
+    <!-- 紫罗兰花朵定义 -->
+    <g id="violetFlower">
+      <path d="M0,0 C5,-8 10,-10 15,-8 C20,-10 25,-8 30,0 C25,8 20,10 15,8 C10,10 5,8 0,0 Z" 
+            fill="#8a2be2" />
+      <circle cx="15" cy="0" r="3" fill="#ffeb3b" />
+    </g>
+    
+    <!-- 动画定义 -->
+    <style>
+      @keyframes fall {
+        0% {
+          transform: translateY(-30px) rotate(0deg);
+          opacity: 0;
+        }
+        10% {
+          opacity: 0.8;
+        }
+        90% {
+          opacity: 0.6;
+        }
+        100% {
+          transform: translateY(160px) rotate(360deg);
+          opacity: 0;
+        }
+      }
+      
+      .falling-flower {
+        animation: fall linear infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="160" fill="url(#bgGradient)" />
+  
+  <!-- 左上角花簇 -->
+  <g class="flower-cluster" transform="translate(30, 20) scale(0.7)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="20" y="8" />
+    <use href="#violetFlower" x="-15" y="12" />
+    <use href="#violetFlower" x="30" y="4" />
+    <use href="#violetFlower" x="-5" y="20" />
+  </g>
+  
+  <!-- 右上角花簇 -->
+  <g class="flower-cluster" transform="translate(720, 25) scale(0.75)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="18" y="10" />
+    <use href="#violetFlower" x="-12" y="15" />
+    <use href="#violetFlower" x="25" y="6" />
+    <use href="#violetFlower" x="-8" y="22" />
+  </g>
+  
+  <!-- 左侧中部花簇 -->
+  <g class="flower-cluster" transform="translate(100, 60) scale(0.65)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="15" y="10" />
+    <use href="#violetFlower" x="-10" y="15" />
+    <use href="#violetFlower" x="25" y="5" />
+  </g>
+  
+  <!-- 右侧中部花簇 -->
+  <g class="flower-cluster" transform="translate(650, 70) scale(0.6)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="16" y="8" />
+    <use href="#violetFlower" x="-12" y="14" />
+    <use href="#violetFlower" x="22" y="6" />
+  </g>
+  
+  <!-- 标题 -->
+  <text x="400" y="80" font-size="36" font-weight="bold" fill="#6a0dad" text-anchor="middle" filter="drop-shadow(0 2px 4px rgba(106, 13, 173, 0.3))">
+    <tspan font-size="32">🥰</tspan>
+    紫罗兰
+    <tspan font-size="32">🤗</tspan>
+    手札
+    <tspan font-size="32">😘</tspan>
+  </text>
+  
+  <!-- 英文副标题 -->
+  <text x="400" y="110" font-size="20" fill="#8a2be2" text-anchor="middle" font-style="italic">Violet Notes</text>
+  
+  <!-- 左下角花簇 -->
+  <g class="flower-cluster" transform="translate(50, 120) scale(0.7)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="22" y="8" />
+    <use href="#violetFlower" x="-18" y="12" />
+    <use href="#violetFlower" x="35" y="5" />
+    <use href="#violetFlower" x="-10" y="20" />
+  </g>
+  
+  <!-- 右下角花簇 -->
+  <g class="flower-cluster" transform="translate(700, 110) scale(0.8)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="20" y="9" />
+    <use href="#violetFlower" x="-16" y="14" />
+    <use href="#violetFlower" x="32" y="6" />
+    <use href="#violetFlower" x="-12" y="22" />
+  </g>
+  
+  <!-- 底部中间花簇 -->
+  <g class="flower-cluster" transform="translate(400, 130) scale(0.6)" opacity="0.7">
+    <use href="#violetFlower" x="0" y="0" />
+    <use href="#violetFlower" x="18" y="7" />
+    <use href="#violetFlower" x="-14" y="11" />
+    <use href="#violetFlower" x="28" y="4" />
+  </g>
+  
+  <!-- 飘落的花朵 -->
+  <use href="#violetFlower" class="falling-flower" x="100" y="-20" transform="scale(0.5)" style="animation-duration: 12s; animation-delay: 0s;" />
+  <use href="#violetFlower" class="falling-flower" x="250" y="-20" transform="scale(0.7)" style="animation-duration: 15s; animation-delay: 2s;" />
+  <use href="#violetFlower" class="falling-flower" x="400" y="-20" transform="scale(0.4)" style="animation-duration: 10s; animation-delay: 5s;" />
+  <use href="#violetFlower" class="falling-flower" x="550" y="-20" transform="scale(0.6)" style="animation-duration: 14s; animation-delay: 1s;" />
+  <use href="#violetFlower" class="falling-flower" x="700" y="-20" transform="scale(0.8)" style="animation-duration: 11s; animation-delay: 3s;" />
+  <use href="#violetFlower" class="falling-flower" x="200" y="-20" transform="scale(0.5)" style="animation-duration: 13s; animation-delay: 7s;" />
+  <use href="#violetFlower" class="falling-flower" x="350" y="-20" transform="scale(0.6)" style="animation-duration: 16s; animation-delay: 4s;" />
+  <use href="#violetFlower" class="falling-flower" x="500" y="-20" transform="scale(0.4)" style="animation-duration: 9s; animation-delay: 6s;" />
+  <use href="#violetFlower" class="falling-flower" x="650" y="-20" transform="scale(0.7)" style="animation-duration: 12s; animation-delay: 8s;" />
+  <use href="#violetFlower" class="falling-flower" x="300" y="-20" transform="scale(0.5)" style="animation-duration: 14s; animation-delay: 9s;" />
+</svg>
