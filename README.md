@@ -4,8 +4,9 @@
 
  <!-- 打字机效果 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=FFFFFF&center=true&vCenter=true&lines=Geek+Spirit;AI+%26+Programmer+Explorer;Open+Source+Contributor" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Geek+Spirit;AI+Programmer+Explorer;Open+Source+Contributor&font=Pacifico&center=true&width=700&height=60&color=CBA6F7&vCenter=true&size=35" />
 </p>
+
 
 
 ## 🌟 My Tabs
@@ -210,5 +211,6 @@
 </p>
 
 <br/>
+
 
 
