@@ -1,177 +1,148 @@
 <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 深紫梦幻背景 -->
+    <!-- 中文艺术字体：毛笔行书 + 龙藏行草 -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&amp;family=Long+Cang&amp;display=swap');
+      .title-art { font-family: 'Ma Shan Zheng','华文行楷','STXingkai','行楷','Long Cang',cursive,serif; }
+    </style>
+
+    <!-- 淡紫背景 -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1a1340"/>
-      <stop offset="50%" stop-color="#2e1065"/>
-      <stop offset="100%" stop-color="#1a1340"/>
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="50%" stop-color="#ede9fe"/>
+      <stop offset="100%" stop-color="#ddd6fe"/>
     </linearGradient>
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.5"/>
-      <stop offset="55%" stop-color="#7c3aed" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#1a1340" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ede9fe" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- 标题金色描边渐变 -->
-    <linearGradient id="goldStroke" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fef9c3"/>
-      <stop offset="50%" stop-color="#fcd34d"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
-    </linearGradient>
-    <!-- 标题主体渐变（亮粉紫→洋红） -->
+    <!-- 标题渐变 -->
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fdf4ff"/>
-      <stop offset="40%" stop-color="#f0abfc"/>
-      <stop offset="100%" stop-color="#c026d3"/>
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-
-    <!-- 紫罗兰花瓣渐变（三种层次） -->
-    <linearGradient id="petalA" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#f0abfc"/>
-      <stop offset="55%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#6d28d9"/>
-    </linearGradient>
-    <linearGradient id="petalB" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#e9d5ff"/>
-      <stop offset="100%" stop-color="#9333ea"/>
-    </linearGradient>
-    <linearGradient id="petalC" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#d8b4fe"/>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
       <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
 
-    <!-- 真实紫罗兰花瓣：圆润倒卵形 + 顶部心形凹陷 + 中央高光 -->
-    <g id="violetPetal">
-      <!-- 花瓣主体（圆润倒卵形，顶部微凹） -->
-      <path d="M0,2 C-7,-2 -9,-13 -4,-20 C-1,-22 1,-22 4,-20 C9,-13 7,-2 0,2 Z" fill="url(#petalA)"/>
-      <!-- 顶部心形凹陷暗示 -->
-      <path d="M0,-20 C-1.5,-18 -1.5,-16 0,-15 C1.5,-16 1.5,-18 0,-20 Z" fill="#6d28d9" opacity="0.55"/>
-      <!-- 左上高光（立体感） -->
-      <ellipse cx="-2.5" cy="-13" rx="2.2" ry="5" fill="#fdf4ff" opacity="0.5" transform="rotate(-18 -2.5 -13)"/>
+    <!-- ========== 优雅紫罗兰花瓣（不对称、有遮挡、微卷边、柔和光泽） ========== -->
+    <!-- 单片花瓣：修长水滴形，顶部圆钝底部尖，带柔和渐变和高光，边缘微卷 -->
+    <radialGradient id="petalFill" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#f3e8ff"/>
+      <stop offset="75%" stop-color="#d8b4fe"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </radialGradient>
+    <radialGradient id="petalFillDeep" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="50%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </radialGradient>
+
+    <!-- 优雅单片花瓣（左偏，自然不对称） -->
+    <g id="petalL">
+      <path d="M0,0 C-5,-4 -10,-12 -8,-22 C-6,-29 -2,-31 0,-31 C2,-30 4,-27 5,-22 C7,-12 4,-4 0,0 Z"
+            fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.4" stroke-opacity="0.45"/>
+      <!-- 边缘微卷高光 -->
+      <path d="M-1,-30 C-3,-26 -4,-20 -3,-14" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+      <!-- 中心柔和光泽 -->
+      <ellipse cx="-1" cy="-20" rx="2" ry="7" fill="#ffffff" opacity="0.45" transform="rotate(8 -1 -20)"/>
     </g>
-    <g id="violetPetalB">
-      <path d="M0,2 C-7,-2 -9,-13 -4,-20 C-1,-22 1,-22 4,-20 C9,-13 7,-2 0,2 Z" fill="url(#petalB)"/>
-      <ellipse cx="-2.5" cy="-13" rx="2.2" ry="5" fill="#fdf4ff" opacity="0.45" transform="rotate(-18 -2.5 -13)"/>
+    <!-- 右偏花瓣 -->
+    <g id="petalR">
+      <path d="M0,0 C5,-4 10,-12 8,-22 C6,-29 2,-31 0,-31 C-2,-30 -4,-27 -5,-22 C-7,-12 -4,-4 0,0 Z"
+            fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.4" stroke-opacity="0.45"/>
+      <path d="M1,-30 C3,-26 4,-20 3,-14" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+      <ellipse cx="1" cy="-20" rx="2" ry="7" fill="#ffffff" opacity="0.45" transform="rotate(-8 1 -20)"/>
     </g>
-    <g id="violetPetalC">
-      <path d="M0,2 C-7,-2 -9,-13 -4,-20 C-1,-22 1,-22 4,-20 C9,-13 7,-2 0,2 Z" fill="url(#petalC)"/>
-      <ellipse cx="-2.5" cy="-13" rx="2.2" ry="5" fill="#fdf4ff" opacity="0.4" transform="rotate(-18 -2.5 -13)"/>
+    <!-- 中央花瓣（圆润柔和，无垂直叶脉） -->
+    <g id="petalC">
+      <path d="M0,2 C-6,-3 -11,-12 -9,-22 C-7,-29 -3,-31 0,-31 C3,-30 7,-28 9,-22 C11,-12 6,-3 0,2 Z"
+            fill="url(#petalFillDeep)" stroke="#7c3aed" stroke-width="0.4" stroke-opacity="0.5"/>
+      <path d="M-1,-30 C-3,-26 -4,-19 -3,-13" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <ellipse cx="-1" cy="-19" rx="1.8" ry="6" fill="#ffffff" opacity="0.35" transform="rotate(6 -1 -19)"/>
     </g>
 
-    <!-- 真实紫罗兰花冠：上二瓣(小) + 侧二瓣(中) + 下瓣(大，带蜜导纹)，蜡质高光 -->
-    <g id="violetFlower">
-      <!-- 上左瓣 -->
-      <use href="#violetPetalC" transform="rotate(-155) scale(0.78)"/>
-      <!-- 上右瓣 -->
-      <use href="#violetPetalC" transform="rotate(155) scale(0.78)"/>
-      <!-- 侧左瓣 -->
-      <use href="#violetPetalC" transform="rotate(-95) scale(0.95)"/>
-      <!-- 侧右瓣 -->
-      <use href="#violetPetalC" transform="rotate(95) scale(0.95)"/>
-      <!-- 下瓣（最大，朝下） -->
-      <use href="#violetPetalB" transform="rotate(180) scale(1.15)"/>
-      <!-- 下瓣蜜导纹（深色放射纹，引导传粉昆虫） -->
-      <path d="M0,-2 C-1.5,-8 -1,-13 0,-17 C1,-13 1.5,-8 0,-2" stroke="#6d28d9" stroke-width="0.8" fill="none" opacity="0.55" transform="rotate(180)"/>
-      <!-- 中心淡黄绿花心（去掉卡通圆点，改柔和光斑） -->
-      <ellipse rx="2.2" ry="1.4" fill="#fde68a" opacity="0.7"/>
-      <ellipse rx="1" ry="0.6" fill="#fff7cc" opacity="0.6"/>
+    <!-- ========== 完整紫罗兰：五瓣真正均匀放射（每瓣 72°，同尺寸，无主导瓣） ========== -->
+    <g id="violetElegant">
+      <!-- 五瓣绕中心均匀放射，略微错位避免机械感 -->
+      <g transform="rotate(0) scale(0.98)"><use href="#petalL"/></g>
+      <g transform="rotate(72) scale(1.0)"><use href="#petalR"/></g>
+      <g transform="rotate(144) scale(0.97)"><use href="#petalL"/></g>
+      <g transform="rotate(216) scale(1.0)"><use href="#petalR"/></g>
+      <g transform="rotate(288) scale(0.98)"><use href="#petalL"/></g>
+      <!-- 花心 -->
+      <ellipse rx="2.2" ry="1.3" fill="#fde68a" opacity="0.9"/>
+      <circle r="0.8" fill="#fff7cc" opacity="0.95"/>
     </g>
 
-    <!-- 强发光（标题） -->
-    <filter id="titleGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="7" result="blur1"/>
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- 阴影 -->
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#7c3aed" flood-opacity="0.28"/>
     </filter>
-    <!-- 花瓣柔光 -->
-    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="1.8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="petalShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#a855f7" flood-opacity="0.32"/>
     </filter>
 
-    <!-- 星光点缀 -->
-    <path id="star" d="M0,-4 C0.6,-1.2 1.2,-0.6 4,0 C1.2,0.6 0.6,1.2 0,4 C-0.6,1.2 -1.2,0.6 -4,0 C-1.2,-0.6 -0.6,-1.2 0,-4 Z" fill="#fef9c3"/>
+    <!-- 飘落单瓣 -->
+    <g id="fallPetal">
+      <path d="M0,0 C-3,-2.5 -6,-8 -5,-15 C-3.5,-20 -1.5,-21 0,-21 C1.5,-20 3.5,-18 5,-15 C6,-8 3,-2.5 0,0 Z"
+            fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.3" stroke-opacity="0.4"/>
+      <path d="M-0.5,-20 C-2,-17 -2.8,-13 -2,-9" stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    </g>
   </defs>
 
-  <!-- 背景层 -->
+  <!-- 背景 -->
   <rect width="800" height="200" fill="url(#bg)"/>
   <rect width="800" height="200" fill="url(#bgGlow)"/>
 
-  <!-- 背景星光（景深氛围） -->
-  <use href="#star" transform="translate(180,40) scale(0.6)" opacity="0.7"/>
-  <use href="#star" transform="translate(620,35) scale(0.5)" opacity="0.6"/>
-  <use href="#star" transform="translate(560,170) scale(0.45)" opacity="0.55"/>
-  <use href="#star" transform="translate(250,165) scale(0.5)" opacity="0.6"/>
-  <use href="#star" transform="translate(400,28) scale(0.55)" opacity="0.65"/>
-  <use href="#star" transform="translate(340,175) scale(0.4)" opacity="0.5"/>
-
-  <!-- 远景飘落花瓣（小、淡、慢转） -->
-  <g opacity="0.5" filter="url(#softGlow)">
-    <use href="#violetPetalC" transform="translate(115,35) rotate(20) scale(0.65)">
+  <!-- 远景飘落花瓣 -->
+  <g opacity="0.6" filter="url(#petalShadow)">
+    <use href="#fallPetal" transform="translate(115,35) rotate(20) scale(0.8)">
       <animateTransform attributeName="transform" type="rotate" from="20" to="200" dur="15s" repeatCount="indefinite" additive="sum"/>
     </use>
-    <use href="#violetPetalC" transform="translate(685,155) rotate(-15) scale(0.6)">
+    <use href="#fallPetal" transform="translate(685,155) rotate(-15) scale(0.7)">
       <animateTransform attributeName="transform" type="rotate" from="-15" to="-195" dur="17s" repeatCount="indefinite" additive="sum"/>
     </use>
-    <use href="#violetPetalB" transform="translate(725,45) rotate(50) scale(0.5)"/>
-    <use href="#violetPetalB" transform="translate(75,170) rotate(-30) scale(0.55)"/>
-    <use href="#violetPetalC" transform="translate(420,55) rotate(60) scale(0.4)" opacity="0.7"/>
+    <use href="#fallPetal" transform="translate(725,45) rotate(50) scale(0.6)"/>
+    <use href="#fallPetal" transform="translate(75,170) rotate(-30) scale(0.65)"/>
   </g>
 
-  <!-- 中景飘落花瓣（围绕标题，带旋转动画） -->
-  <g filter="url(#softGlow)">
-    <use href="#violetPetal" transform="translate(60,55) rotate(30) scale(1.1)" opacity="0.92">
+  <!-- 中景飘落花瓣（围绕标题） -->
+  <g filter="url(#petalShadow)">
+    <use href="#fallPetal" transform="translate(58,55) rotate(30) scale(1.15)" opacity="0.92">
       <animateTransform attributeName="transform" type="rotate" from="30" to="210" dur="10s" repeatCount="indefinite" additive="sum"/>
     </use>
-    <use href="#violetPetal" transform="translate(740,60) rotate(-25) scale(1.05)" opacity="0.9">
+    <use href="#fallPetal" transform="translate(742,58) rotate(-25) scale(1.1)" opacity="0.92">
       <animateTransform attributeName="transform" type="rotate" from="-25" to="-205" dur="12s" repeatCount="indefinite" additive="sum"/>
     </use>
-    <use href="#violetPetalA" transform="translate(95,155) rotate(15) scale(0.95)" opacity="0.88"/>
-    <use href="#violetPetalA" transform="translate(705,150) rotate(-40) scale(1.0)" opacity="0.9"/>
-    <use href="#violetPetal" transform="translate(210,150) rotate(70) scale(0.7)" opacity="0.75"/>
-    <use href="#violetPetalB" transform="translate(590,150) rotate(-60) scale(0.7)" opacity="0.75"/>
+    <use href="#fallPetal" transform="translate(95,158) rotate(15) scale(1.0)" opacity="0.88"/>
+    <use href="#fallPetal" transform="translate(705,152) rotate(-40) scale(1.05)" opacity="0.9"/>
   </g>
 
-  <!-- 两朵完整紫罗兰（标题两侧，放大并去掉模糊让花瓣结构清晰） -->
-  <g transform="translate(128,100) scale(2.2)">
-    <use href="#violetFlower"/>
+  <!-- 两朵优雅紫罗兰（标题两侧） -->
+  <g transform="translate(120,102) scale(2.4)" filter="url(#petalShadow)">
+    <use href="#violetElegant"/>
   </g>
-  <g transform="translate(672,100) scale(2.2)">
-    <g transform="scale(-1,1)"><use href="#violetFlower"/></g>
+  <g transform="translate(680,102) scale(2.4)" filter="url(#petalShadow)">
+    <g transform="scale(-1,1)"><use href="#violetElegant"/></g>
   </g>
 
-  <!-- ========== 艺术字主标题 ========== -->
-  <!-- 外层柔光 -->
-  <text x="400" y="118" text-anchor="middle" dominant-baseline="central"
-        font-family="'Source Han Serif SC','Noto Serif SC','Songti SC','STSong','SimSun','宋体',serif"
-        font-size="64" font-weight="900" letter-spacing="16"
-        fill="#e879f9" opacity="0.4" filter="url(#titleGlow)">紫罗兰手札</text>
+  <!-- ========== 艺术字主标题（毛笔行书） ========== -->
+  <text x="400" y="124" text-anchor="middle" dominant-baseline="central" class="title-art"
+        font-size="76" letter-spacing="10"
+        fill="none" stroke="url(#strokeGrad)" stroke-width="2" stroke-linejoin="round" opacity="0.7">紫罗兰手札</text>
+  <text x="400" y="124" text-anchor="middle" dominant-baseline="central" class="title-art"
+        font-size="76" letter-spacing="10"
+        fill="url(#titleGrad)" filter="url(#softShadow)">紫罗兰手札</text>
 
-  <!-- 金色描边层 -->
-  <text x="400" y="118" text-anchor="middle" dominant-baseline="central"
-        font-family="'Source Han Serif SC','Noto Serif SC','Songti SC','STSong','SimSun','宋体',serif"
-        font-size="64" font-weight="900" letter-spacing="16"
-        fill="none" stroke="url(#goldStroke)" stroke-width="2.8" stroke-linejoin="round">紫罗兰手札</text>
-
-  <!-- 渐变填充主层 -->
-  <text x="400" y="118" text-anchor="middle" dominant-baseline="central"
-        font-family="'Source Han Serif SC','Noto Serif SC','Songti SC','STSong','SimSun','宋体',serif"
-        font-size="64" font-weight="900" letter-spacing="16"
-        fill="url(#titleGrad)">紫罗兰手札</text>
-
-  <!-- 高光层（顶部白色叠加，增强华丽感） -->
-  <text x="400" y="118" text-anchor="middle" dominant-baseline="central"
-        font-family="'Source Han Serif SC','Noto Serif SC','Songti SC','STSong','SimSun','宋体',serif"
-        font-size="64" font-weight="900" letter-spacing="16"
-        fill="#fdf4ff" opacity="0.18">紫罗兰手札</text>
-
-  <!-- 副标艺术体 -->
-  <text x="400" y="170" text-anchor="middle"
+  <!-- 副标：优雅衬线斜体（与中文气质统一） -->
+  <text x="400" y="172" text-anchor="middle"
         font-family="Georgia,'Palatino Linotype','Book Antiqua',Palatino,serif"
-        font-style="italic" font-size="20" font-weight="600" letter-spacing="9"
-        fill="#e9d5ff" opacity="0.92">~ Violet Notes ~</text>
+        font-style="italic" font-size="20" letter-spacing="4"
+        fill="#7c3aed" opacity="0.88">Violet Notes</text>
+  <line x1="300" y1="170" x2="340" y2="170" stroke="#c4b5fd" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+  <line x1="460" y1="170" x2="500" y2="170" stroke="#c4b5fd" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
 </svg>
