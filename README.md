@@ -4,24 +4,34 @@
 
 <!-- 打字机效果 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=A78BFA&center=true&vCenter=true&width=720&height=60&lines=Geek+Spirit;AI+Programmer+Explorer;Open+Source+Contributor;Security+Researcher" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=800&color=8b5cf6,a78bfa,c084fc&center=true&vCenter=true&width=720&height=60&lines=Hi+there%2C+I%27m+funny8kids+%F0%9F%91%8B;AI+Native+Developer;Open+Source+Enthusiast;Security+Researcher;Always+Learning%2C+Always+Building" alt="Typing SVG" />
 </p>
 
-## 🌟 My Tabs
+<div align="center">
+  <a href="https://github.com/funny8kids?tab=repositories&sort=stargazers">
+    <img alt="Total Stars" src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=1a1a2e&color=e94560&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Ffunny8kids" />
+  </a>
+  <a href="https://github.com/funny8kids?tab=followers">
+    <img alt="Followers" src="https://img.shields.io/github/followers/funny8kids?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=1a1a2e&color=e94560" />
+  </a>
+  <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=funny8kids&label=Views&color=8b5cf6&style=for-the-badge" />
+</div>
+
+---
+
+## 🌟 About Me
 
 - 🎯 **AI Native** — 无限进步，探索代码的边界，了解各大技术栈
 - 🧑‍💻 **极客爱好者** — 浏览各大博客社区，游荡 GitHub 交友社区
 - 🔒 **网络安全 / 渗透测试** — 有个做 Hacker 的梦，相信相信的力量
 - 🎮 **小工具爱好者** — 喜欢做一些小脚本、小工具
 
+## 💻 Tech Stack
+
 <p align="center">
-  <a href="https://github.com/funny8kids?tab=repositories&sort=stargazers">
-    <img alt="Total Stars" src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=488207&color=55960c&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Ffunny8kids" />
+  <a href="https://skillicons.dev" target="_blank">
+    <img src="https://skillicons.dev/icons?i=java,python,kali,ubuntu,nodejs,vue,react,js,ts,html,css,linux,vscode,git,github,gitlab,docker,kubernetes,aws,nginx,mysql,mongodb,redis,flask,django,anaconda,pytorch,bash,powershell,fastapi&perline=10" alt="Skills" />
   </a>
-  <a href="https://github.com/funny8kids?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/funny8kids?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=1155ba&color=236ad3" />
-  </a>
-  <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=funny8kids&label=Views&color=8a2be2&style=for-the-badge" />
 </p>
 
 ---
@@ -29,8 +39,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=funny8kids&show_icons=true&theme=radical&count_private=true&hide_title=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=radical" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=funny8kids&show_icons=true&theme=radical&count_private=true&hide_title=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -45,34 +55,6 @@
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=darkhub&no-frame=true&margin-w=15&column=7" alt="GitHub Trophies" />
-</p>
-
----
-
-## 💻 My Favorite Tools & Technologies
-
-<p align="center">
-  <a href="https://www.java.com/" target="_blank"><img src="https://techstack-generator.vercel.app/java-icon.svg" width="60" height="60" alt="Java" /></a>
-  &nbsp;
-  <a href="https://www.python.org/" target="_blank"><img src="https://techstack-generator.vercel.app/python-icon.svg" width="60" height="60" alt="Python" /></a>
-  &nbsp;
-  <a href="https://github.com/" target="_blank"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="60" height="60" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="60" height="60" alt="MySQL" /></a>
-  &nbsp;
-  <a href="https://www.nginx.org/" target="_blank"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="60" height="60" alt="Nginx" /></a>
-  &nbsp;
-  <a href="https://kubernetes.io/" target="_blank"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="60" height="60" alt="Kubernetes" /></a>
-  &nbsp;
-  <a href="https://www.docker.com/" target="_blank"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="60" height="60" alt="Docker" /></a>
-  &nbsp;
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="60" height="60" alt="AWS" /></a>
-  &nbsp;
-  <a href="https://restfulapi.net/" target="_blank"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="60" height="60" alt="REST API" /></a>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,kali,ubuntu,nodejs,vue,react,js,ts,html,css,linux,vscode,git,github,gitlab,docker,kubernetes,aws,nginx,mysql,mongodb,redis,flask,django,anaconda,pytorch,bash,powershell,fastapi&perline=10" alt="Skills" />
 </p>
 
 ---
@@ -175,5 +157,5 @@
 <!-- 所有资源均为免费开源项目，感谢每一位维护者的付出 💜 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E9D8FF,50:C4A2F7,100:8B5CF6&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer" />
 </p>
