@@ -6,19 +6,20 @@
       <stop offset="50%" stop-color="#eadbff"/>
       <stop offset="100%" stop-color="#dbc3f9"/>
     </linearGradient>
-    <!-- 书法笔画渐变 -->
-    <linearGradient id="inkMain" x1="0%" y1="0%" x2="100%" y2="100%">
+
+    <!-- 标题渐变填充（深紫 → 亮紫 → 桃紫） -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#5b21b6"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+      <stop offset="40%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-    <linearGradient id="inkLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
-    <linearGradient id="inkAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
+
+    <!-- 光晕渐变（用于发光层） -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+
     <!-- 花瓣渐变 -->
     <linearGradient id="petal" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#cba8ff"/>
@@ -32,12 +33,17 @@
       <stop offset="0%" stop-color="#a7e8bd"/>
       <stop offset="100%" stop-color="#4caf7d"/>
     </linearGradient>
+
+    <!-- 书法装饰笔画渐变 -->
     <linearGradient id="vine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.55"/>
     </linearGradient>
-    <!-- 副标题渐变 -->
+    <linearGradient id="vineDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.45"/>
+    </linearGradient>
     <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8b5cf6"/>
       <stop offset="50%" stop-color="#a78bfa"/>
@@ -79,10 +85,18 @@
     <g id="sparkleSoft">
       <path d="M0,-5 C0.6,-1.8 1.8,-0.6 5,0 C1.8,0.6 0.6,1.8 0,5 C-0.6,1.8 -1.8,0.6 -5,0 C-1.8,-0.6 -0.6,-1.8 0,-5 Z" fill="#ffffff" opacity="0.88"/>
     </g>
-    <!-- 小花瓣 -->
     <g id="miniPetal">
-      <ellipse rx="3" ry="5.5" fill="url(#petal)" opacity="0.55"/>
+      <ellipse rx="3" ry="5.5" fill="url(#petal)" opacity="0.5"/>
     </g>
+
+    <!-- 光晕滤镜 -->
+    <filter id="textGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#5b21b6" flood-opacity="0.25"/>
+    </filter>
   </defs>
 
   <!-- 背景 -->
@@ -97,130 +111,87 @@
   <rect x="14" y="14" width="772" height="172" rx="26" fill="none" stroke="#b79bff" stroke-opacity="0.4" stroke-width="1.5"/>
   <rect x="20" y="20" width="760" height="160" rx="20" fill="none" stroke="#d9c6ff" stroke-opacity="0.5" stroke-width="0.8"/>
 
-  <!-- 飘带花藤装饰（贯穿左右） -->
-  <path d="M38,95 C90,78 140,105 200,88 C260,71 300,102 360,90" stroke="url(#vine)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <path d="M440,90 C500,102 540,71 600,88 C660,105 710,78 762,95" stroke="url(#vine)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <!-- 藤上叶片 -->
-  <path d="M105,88 C112,80 118,83 114,90" fill="url(#leaf)" opacity="0.7"/>
-  <path d="M280,96 C287,88 293,91 289,98" fill="url(#leaf)" opacity="0.6"/>
-  <path d="M520,96 C513,88 507,91 511,98" fill="url(#leaf)" opacity="0.6"/>
-  <path d="M695,88 C688,80 682,83 686,90" fill="url(#leaf)" opacity="0.7"/>
+  <!-- ================================================================ -->
+  <!-- 书法装饰笔画（飘带/花藤，营造手写书法氛围）                      -->
+  <!-- ================================================================ -->
 
-  <!-- ========================================================== -->
-  <!-- 核心：毛笔书法风格的艺术字「紫罗兰手札」                    -->
-  <!-- 每个字由 2-4 条粗细不一、有飞白枯笔效果的笔画构成          -->
-  <!-- 笔画有自然的弯曲弧度、起笔藏锋、收笔出锋                   -->
-  <!-- ========================================================== -->
+  <!-- 主飘带（标题下方蜿蜒穿过） -->
+  <path d="M100,116 C180,100 260,120 340,105 C380,98 420,102 460,105 C540,120 620,100 700,116"
+        stroke="url(#vine)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
 
-  <!-- ── 紫 ── x≈168 -->
-  <!-- 此字：绞丝旁（左下弧线）+ 上部短横 + 下部长撇 + 竖钩 -->
-  <!-- 绞丝旁 -->
-  <path d="M155,100 C158,85 163,78 170,72 C167,80 165,88 164,98" stroke="url(#inkLight)" stroke-width="3.8" fill="none" stroke-linecap="round"/>
-  <path d="M164,98 C168,90 172,83 178,78" stroke="url(#inkLight)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-  <!-- 上部短横 -->
-  <path d="M160,74 C165,72.5 173,72 180,73" stroke="url(#inkMain)" stroke-width="4.2" fill="none" stroke-linecap="round"/>
-  <!-- 中部横折 -->
-  <path d="M157,86 C164,84 172,83.5 180,85" stroke="url(#inkMain)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <!-- 下部长撇（出锋） -->
-  <path d="M162,90 C158,95 154,102 148,108" stroke="url(#inkMain)" stroke-width="3.2" fill="none" stroke-linecap="round"/>
-  <!-- 竖钩 -->
-  <path d="M170,80 C169,88 168,96 166,104 C165,107 163,108 161,106" stroke="url(#inkMain)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 上方装饰弧线 -->
+  <path d="M180,52 C240,38 300,62 360,48 C380,44 420,44 440,48 C500,62 560,38 620,52"
+        stroke="url(#vineDark)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
 
-  <!-- ── 罗 ── x≈308 -->
-  <!-- 四字头 + 下部夕 -->
-  <!-- 四字头上横 -->
-  <path d="M290,75 C296,73 304,72.5 312,73.5" stroke="url(#inkMain)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <!-- 左竖 -->
-  <path d="M292,75 C291,82 290,89 289,96" stroke="url(#inkMain)" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <!-- 右竖 -->
-  <path d="M312,75 C313,82 314,89 315,96" stroke="url(#inkMain)" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <!-- 横折（中段） -->
-  <path d="M290,86 C297,85 305,84.5 313,86" stroke="url(#inkMain)" stroke-width="3.8" fill="none" stroke-linecap="round"/>
-  <!-- 下部夕-撇（舒展出锋） -->
-  <path d="M303,96 C297,102 290,108 280,113" stroke="url(#inkMain)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <!-- 夕-点 -->
-  <path d="M312,104 C314,107 316,110 318,114" stroke="url(#inkMain)" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+  <!-- 左侧花藤分支 -->
+  <path d="M72,80 C68,68 78,56 92,50" stroke="url(#vine)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M92,50 C98,44 108,46 104,54" fill="url(#leaf)" opacity="0.65"/>
+  <path d="M82,70 C76,62 82,54 90,52" fill="url(#leaf)" opacity="0.6"/>
 
-  <!-- ── 兰 ── x≈448 -->
-  <!-- 点 + 横 + 两竖（简化写意风） -->
-  <!-- 上点 -->
-  <path d="M450,72 C451.5,75 453,78 454,81" stroke="url(#inkMain)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <!-- 长横（舒展大气） -->
-  <path d="M428,88 C436,86 444,85.5 452,86 C460,86.5 468,87 472,88" stroke="url(#inkMain)" stroke-width="4.8" fill="none" stroke-linecap="round"/>
-  <!-- 左竖 -->
-  <path d="M440,92 C439,98 438,104 437,110" stroke="url(#inkMain)" stroke-width="3.6" fill="none" stroke-linecap="round"/>
-  <!-- 右竖（带钩出锋） -->
-  <path d="M460,92 C461,98 462,104 461,110 C460,113 458,114 456,112" stroke="url(#inkMain)" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+  <!-- 右侧花藤分支 -->
+  <path d="M728,80 C732,68 722,56 708,50" stroke="url(#vine)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M708,50 C702,44 692,46 696,54" fill="url(#leaf)" opacity="0.65"/>
+  <path d="M718,70 C724,62 718,54 710,52" fill="url(#leaf)" opacity="0.6"/>
 
-  <!-- ── 手 ── x≈578 -->
-  <!-- 撇 + 横 + 竖钩 -->
-  <!-- 上撇 -->
-  <path d="M580,70 C576,74 572,78 568,82" stroke="url(#inkMain)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <!-- 第一横（短） -->
-  <path d="M568,82 C574,80.5 580,80 586,81" stroke="url(#inkMain)" stroke-width="4.2" fill="none" stroke-linecap="round"/>
-  <!-- 第二横（长） -->
-  <path d="M562,92 C570,90 578,89.5 586,90 C592,90.5 596,91 598,92" stroke="url(#inkMain)" stroke-width="4.8" fill="none" stroke-linecap="round"/>
-  <!-- 竖钩（主笔，沉稳有力） -->
-  <path d="M580,78 C580,86 580,94 580,102 C580,106 579,109 576,107" stroke="url(#inkMain)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- 左下花藤 -->
+  <path d="M88,140 C96,150 110,156 126,152" stroke="url(#vine)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M126,152 C130,146 126,140 120,142" fill="url(#leaf)" opacity="0.6"/>
 
-  <!-- ── 札 ── x≈708 -->
-  <!-- 木字旁 + 右部竖弯钩 -->
-  <!-- 木字旁-横 -->
-  <path d="M694,88 C700,86.5 706,86 712,87" stroke="url(#inkMain)" stroke-width="4.2" fill="none" stroke-linecap="round"/>
-  <!-- 木字旁-竖 -->
-  <path d="M704,78 C703,86 702,94 701,102" stroke="url(#inkMain)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <!-- 木字旁-撇（出锋） -->
-  <path d="M704,90 C699,96 694,102 688,107" stroke="url(#inkMain)" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <!-- 木字旁-点 -->
-  <path d="M706,92 C710,97 714,102 718,106" stroke="url(#inkMain)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
-  <!-- 右部-横折（上方方框） -->
-  <path d="M718,80 C724,78 730,77.5 736,79" stroke="url(#inkMain)" stroke-width="3.8" fill="none" stroke-linecap="round"/>
-  <path d="M736,79 C737,84 738,89 738,94" stroke="url(#inkMain)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <!-- 右部-竖弯钩（舒展主笔，漂亮弧线出锋） -->
-  <path d="M728,82 C728,90 727,98 725,106 C723,112 720,116 714,118 C710,119 706,117 708,112" stroke="url(#inkMain)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <!-- 右下花藤 -->
+  <path d="M712,140 C704,150 690,156 674,152" stroke="url(#vine)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M674,152 C670,146 674,140 680,142" fill="url(#leaf)" opacity="0.6"/>
 
-  <!-- 书法笔画阴影层（淡化偏移，模拟宣纸墨韵） -->
-  <g opacity="0.1" transform="translate(1.5,2.5)">
-    <!-- 紫 -->
-    <path d="M160,74 C165,72.5 173,72 180,73" stroke="#3b0764" stroke-width="4.2" fill="none"/>
-    <path d="M157,86 C164,84 172,83.5 180,85" stroke="#3b0764" stroke-width="4.5" fill="none"/>
-    <path d="M170,80 C169,88 168,96 166,104" stroke="#3b0764" stroke-width="4" fill="none"/>
-    <!-- 罗 -->
-    <path d="M290,75 C296,73 304,72.5 312,73.5" stroke="#3b0764" stroke-width="4.5" fill="none"/>
-    <path d="M292,75 C291,82 290,89 289,96" stroke="#3b0764" stroke-width="4" fill="none"/>
-    <path d="M312,75 C313,82 314,89 315,96" stroke="#3b0764" stroke-width="4" fill="none"/>
-    <!-- 兰 -->
-    <path d="M428,88 C436,86 444,85.5 452,86 C460,86.5 468,87 472,88" stroke="#3b0764" stroke-width="4.8" fill="none"/>
-    <!-- 手 -->
-    <path d="M562,92 C570,90 578,89.5 586,90 C592,90.5 596,91 598,92" stroke="#3b0764" stroke-width="4.8" fill="none"/>
-    <path d="M580,78 C580,86 580,94 580,102" stroke="#3b0764" stroke-width="5" fill="none"/>
-    <!-- 札 -->
-    <path d="M694,88 C700,86.5 706,86 712,87" stroke="#3b0764" stroke-width="4.2" fill="none"/>
-    <path d="M704,78 C703,86 702,94 701,102" stroke="#3b0764" stroke-width="4.5" fill="none"/>
-    <path d="M728,82 C728,90 727,98 725,106 C723,112 720,116 714,118" stroke="#3b0764" stroke-width="4.5" fill="none"/>
+  <!-- 枯笔飞白效果（标题区域的半透明细线） -->
+  <g opacity="0.25" stroke="#6d28d9" fill="none" stroke-linecap="round">
+    <path d="M180,62 C250,54 320,58 400,56" stroke-width="0.5"/>
+    <path d="M400,56 C480,58 550,54 620,62" stroke-width="0.5"/>
+    <path d="M220,110 C300,104 370,108 400,107" stroke-width="0.4"/>
+    <path d="M400,107 C430,108 500,104 580,110" stroke-width="0.4"/>
   </g>
 
-  <!-- 书法飞白效果（枯笔细线，模拟毛笔快写） -->
-  <g opacity="0.3" stroke="#6d28d9" fill="none" stroke-linecap="round">
-    <path d="M163,77 C168,76 174,75.8 179,76.5" stroke-width="0.6"/>
-    <path d="M293,78 C300,77 307,76.8 311,77.5" stroke-width="0.6"/>
-    <path d="M435,89 C445,88 455,87.8 465,89" stroke-width="0.7"/>
-    <path d="M570,93 C576,92 582,91.8 588,93" stroke-width="0.6"/>
-    <path d="M700,89 C705,88 710,87.8 715,89" stroke-width="0.6"/>
-    <path d="M580,84 C580,88 580,92 579,96" stroke-width="0.5"/>
-    <path d="M728,86 C728,92 727,98 726,103" stroke-width="0.5"/>
-  </g>
+  <!-- ================================================================ -->
+  <!-- 标题「紫罗兰手札」                                                -->
+  <!-- 层次：光晕层 → 描边层 → 渐变填充主字层                            -->
+  <!-- ================================================================ -->
 
-  <!-- ── 副标题 ── -->
+  <!-- 光晕层（紫光弥散效果） -->
+  <text x="400" y="100" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Source Han Serif SC','Noto Serif CJK SC','Songti SC','STSong','SimSun','宋体',serif"
+        font-size="68" font-weight="900" letter-spacing="12"
+        fill="#a78bfa" opacity="0.25" filter="url(#textGlow)">紫罗兰手札</text>
+
+  <!-- 描边层（字形轮廓） -->
+  <text x="400" y="100" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Source Han Serif SC','Noto Serif CJK SC','Songti SC','STSong','SimSun','宋体',serif"
+        font-size="68" font-weight="900" letter-spacing="12"
+        fill="none" stroke="#3b0764" stroke-width="1.2" stroke-opacity="0.3">紫罗兰手札</text>
+
+  <!-- 主字层（渐变填充 + 阴影） -->
+  <text x="400" y="100" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Source Han Serif SC','Noto Serif CJK SC','Songti SC','STSong','SimSun','宋体',serif"
+        font-size="68" font-weight="900" letter-spacing="12"
+        fill="url(#titleGrad)" filter="url(#softShadow)">紫罗兰手札</text>
+
+  <!-- ================================================================ -->
+  <!-- 副标题 "Violet Notes"                                             -->
+  <!-- ================================================================ -->
+
   <!-- 装饰线 -->
-  <line x1="242" y1="151" x2="310" y2="151" stroke="#b79bff" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
-  <circle cx="238" cy="151" r="2.2" fill="#a78bfa" opacity="0.9"/>
-  <line x1="490" y1="151" x2="558" y2="151" stroke="#b79bff" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
-  <circle cx="562" cy="151" r="2.2" fill="#a78bfa" opacity="0.9"/>
-  <!-- 副标题文字（Georgia 手写斜体效果） -->
-  <text x="400" y="157" text-anchor="middle" font-family="Georgia,'Palatino Linotype','Book Antiqua',Palatino,'Times New Roman',serif" font-style="italic" font-size="18" letter-spacing="4" fill="url(#subGrad)">Violet Notes</text>
+  <line x1="235" y1="149" x2="308" y2="149" stroke="#b79bff" stroke-width="1.4" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="231" cy="149" r="2.2" fill="#a78bfa" opacity="0.9"/>
+  <line x1="492" y1="149" x2="565" y2="149" stroke="#b79bff" stroke-width="1.4" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="569" cy="149" r="2.2" fill="#a78bfa" opacity="0.9"/>
 
-  <!-- ── 角落装饰花簇 ── -->
+  <!-- 副标题文字 -->
+  <text x="400" y="155" text-anchor="middle"
+        font-family="Georgia,'Palatino Linotype','Book Antiqua',Palatino,serif"
+        font-style="italic" font-size="18" letter-spacing="4"
+        fill="url(#subGrad)">Violet Notes</text>
+
+  <!-- ================================================================ -->
+  <!-- 四角花簇                                                          -->
+  <!-- ================================================================ -->
+
   <!-- 左上 -->
   <g transform="translate(60,54)">
     <use href="#leafSprig" transform="translate(10,6) rotate(-20)"/>
@@ -252,16 +223,16 @@
     <use href="#flowerDark" transform="translate(-18,22) rotate(-12) scale(0.5)"/>
   </g>
 
-  <!-- 顶部散落小花瓣（增加书法作品的「留白」美感） -->
+  <!-- 散落小花瓣 -->
   <use href="#miniPetal" transform="translate(200,38) rotate(25)"/>
   <use href="#miniPetal" transform="translate(600,35) rotate(-30)"/>
-  <use href="#miniPetal" transform="translate(350,162) rotate(15)"/>
-  <use href="#miniPetal" transform="translate(480,165) rotate(-20)"/>
+  <use href="#miniPetal" transform="translate(350,165) rotate(15)"/>
+  <use href="#miniPetal" transform="translate(480,168) rotate(-20)"/>
 
   <!-- 点缀星光 -->
-  <use href="#sparkle" transform="translate(190,102) scale(0.9)"/>
-  <use href="#sparkle" transform="translate(610,102) scale(0.9)"/>
-  <use href="#sparkleSoft" transform="translate(400,32) scale(0.55)"/>
+  <use href="#sparkle" transform="translate(190,105) scale(0.85)"/>
+  <use href="#sparkle" transform="translate(610,105) scale(0.85)"/>
+  <use href="#sparkleSoft" transform="translate(400,30) scale(0.55)"/>
   <use href="#sparkleSoft" transform="translate(330,42) scale(0.4)"/>
-  <use href="#sparkleSoft" transform="translate(470,40) scale(0.45)"/>
+  <use href="#sparkleSoft" transform="translate(470,38) scale(0.45)"/>
 </svg>

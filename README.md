@@ -85,23 +85,94 @@
 
 ---
 
-## 💜 本页用到的免费资源 · Free Resources
+## 💜 免费资源合集 · Free GitHub Profile Resources
 
-| 资源 | 用途 |
+<details>
+<summary>📊 统计与数据展示</summary>
+
+| 资源 | 描述 |
 | --- | --- |
-| [Shields.io](https://shields.io/) | 徽章生成 |
-| [Readme Typing SVG](https://readme-typing-svg.demolab.com/demo/) | 打字机动画效果 |
-| [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) | 统计卡片 |
-| [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | 连续提交统计 |
-| [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) | 贡献活跃度图 |
-| [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy) | 成就奖杯 |
-| [Skill Icons](https://skillicons.dev/) | 技能图标 |
-| [Tech Stack Generator](https://github.com/qkrdmstlr3/techstack-generator) | 动态技术图标 |
-| [Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter) | 访问计数 |
-| [Capsule Render](https://github.com/kyechan99/capsule-render) | 波浪横幅 |
-| [Platane/snk](https://github.com/Platane/snk) | 贪吃蛇贡献图 |
+| [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) | 统计卡片（Stars、Commits、PRs、Issues 等） |
+| [Top Languages](https://github.com/anuraghazra/github-readme-stats#extras) | 常用语言排行卡片 |
+| [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | 连续提交天数统计 |
+| [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) | 贡献活跃度折线图 |
+| [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy) | 成就奖杯墙 |
+| [Waka Time Stats](https://github.com/anmol098/waka-readme-stats) | 编程时间统计（需 WakaTime） |
+| [GitHub Stats Visualization](https://github.com/jstrieb/github-stats) | 详细的统计信息可视化 |
+| [GitHub Contribution Stats](https://github.com/LordDashMe/github-contribution-stats) | 贡献统计卡片 |
 
-<!-- 更多 GitHub 个人主页免费资源合集: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
+</details>
+
+<details>
+<summary>🎨 动画与视觉效果</summary>
+
+| 资源 | 描述 |
+| --- | --- |
+| [Readme Typing SVG](https://readme-typing-svg.demolab.com/demo/) | 打字机动画效果 |
+| [Capsule Render](https://github.com/kyechan99/capsule-render) | 波浪 / 扭曲 / 透明横幅 |
+| [Platane/snk](https://github.com/Platane/snk) | 贪吃蛇贡献图动画 |
+| [Header Generator](https://github.com/leviarista/github-profile-header-generator) | 个人主页头图生成器 |
+| [GitHub Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) | 励志名言卡片 |
+| [Readme Jokes](https://github.com/ABSphreak/readme-jokes) | 随机编程笑话 |
+| [GitHub Stats Animation](https://github.com/Akil-Aoki/github-readme-streak-stats) | 动画版统计卡片 |
+
+</details>
+
+<details>
+<summary>🛠️ 徽章与图标</summary>
+
+| 资源 | 描述 |
+| --- | --- |
+| [Shields.io](https://shields.io/) | 万能徽章生成器 |
+| [Skill Icons](https://skillicons.dev/) | 技能图标（支持亮/暗主题） |
+| [Tech Stack Generator](https://github.com/qkrdmstlr3/techstack-generator) | 动态旋转技术栈图标 |
+| [Markdown Badges](https://github.com/Ileriayo/markdown-badges) | 常用技术/平台徽章合集 |
+| [Simple Icons](https://simpleicons.org/) | 1000+ 品牌 SVG 图标 |
+| [Devicon](https://devicon.dev/) | 开发者技术图标集 |
+
+</details>
+
+<details>
+<summary>📈 社交与互动</summary>
+
+| 资源 | 描述 |
+| --- | --- |
+| [Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter) | 主页访问计数 |
+| [Visitor Badge](https://github.com/jwenjian/visitor-badge) | 访问者徽章 |
+| [GitHub Followers Badge](https://shields.io/) | 关注者数量徽章 |
+| [Spotify GitHub Profile](https://github.com/kittinan/spotify-github-profile) | 正在听的 Spotify 歌曲 |
+| [Latest Blog Posts](https://github.com/gautamkrishnar/blog-post-workflow) | 自动展示最新博客文章 |
+| [GitHub Readme Medium](https://github.com/omidnikrah/github-readme-medium) | Medium 文章展示 |
+| [GitHub Readme Twitter](https://github.com/gazf/github-readme-twitter) | 最新推文展示 |
+
+</details>
+
+<details>
+<summary>🧩 3D 与特殊效果</summary>
+
+| 资源 | 描述 |
+| --- | --- |
+| [GitHub 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | 3D 贡献图 |
+| [GitHub Skyline](https://github.com/lowlighter/github-skyline) | GitHub 贡献天际线 |
+| [Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | 个人资料摘要卡片 |
+| [GitHub Profile Badge](https://github.com/Aveek-Saha/github-profile-badge) | 个人资料徽章 |
+| [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | 🔥 连续提交火焰统计 |
+
+</details>
+
+<details>
+<summary>📚 合集与工具</summary>
+
+| 资源 | 描述 |
+| --- | --- |
+| [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | ⭐ 最全的个人主页资源合集 |
+| [GitHub Profile README Generator](https://github.com/rahuldkjain/github-profile-readme-generator) | 在线可视化生成 README |
+| [Profileme](https://github.com/DenverCoder1/customizing-badges) | 徽章定制工具 |
+| [GitHub README Stats Themes](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md) | 统计卡片主题库 |
+
+</details>
+
+<!-- 所有资源均为免费开源项目，感谢每一位维护者的付出 💜 -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E9D8FF,50:C4A2F7,100:8B5CF6&height=120&section=footer" />
