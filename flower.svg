@@ -1,12 +1,15 @@
 <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 中文艺术字体：毛笔行书 + 龙藏行草 -->
+    <!-- 内嵌艺术字体（base64 woff2，确保 GitHub 上也能渲染毛笔行书） -->
     <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&amp;family=Long+Cang&amp;display=swap');
-      .title-art { font-family: 'Ma Shan Zheng','华文行楷','STXingkai','行楷','Long Cang',cursive,serif; }
+      @font-face {
+        font-family: 'MSZ';
+        font-weight: 400;
+        src: url(data:font/woff2;base64,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) format('woff2');
+      }
+      .title-art { font-family: 'MSZ','Ma Shan Zheng','华文行楷','STXingkai','行楷',cursive,serif; }
     </style>
 
-    <!-- 淡紫背景 -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#faf5ff"/>
       <stop offset="50%" stop-color="#ede9fe"/>
@@ -17,7 +20,6 @@
       <stop offset="100%" stop-color="#ede9fe" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- 标题渐变 -->
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#7c3aed"/>
       <stop offset="100%" stop-color="#a855f7"/>
@@ -27,110 +29,144 @@
       <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
 
-    <!-- ========== 优雅紫罗兰花瓣（不对称、有遮挡、微卷边、柔和光泽） ========== -->
-    <!-- 单片花瓣：修长水滴形，顶部圆钝底部尖，带柔和渐变和高光，边缘微卷 -->
     <radialGradient id="petalFill" cx="35%" cy="30%" r="80%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="35%" stop-color="#f3e8ff"/>
       <stop offset="75%" stop-color="#d8b4fe"/>
       <stop offset="100%" stop-color="#9333ea"/>
     </radialGradient>
-    <radialGradient id="petalFillDeep" cx="35%" cy="30%" r="80%">
-      <stop offset="0%" stop-color="#f5f3ff"/>
-      <stop offset="50%" stop-color="#c4b5fd"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
-    </radialGradient>
 
-    <!-- 优雅单片花瓣（左偏，自然不对称） -->
     <g id="petalL">
       <path d="M0,0 C-5,-4 -10,-12 -8,-22 C-6,-29 -2,-31 0,-31 C2,-30 4,-27 5,-22 C7,-12 4,-4 0,0 Z"
             fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.4" stroke-opacity="0.45"/>
-      <!-- 边缘微卷高光 -->
       <path d="M-1,-30 C-3,-26 -4,-20 -3,-14" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
-      <!-- 中心柔和光泽 -->
       <ellipse cx="-1" cy="-20" rx="2" ry="7" fill="#ffffff" opacity="0.45" transform="rotate(8 -1 -20)"/>
     </g>
-    <!-- 右偏花瓣 -->
     <g id="petalR">
       <path d="M0,0 C5,-4 10,-12 8,-22 C6,-29 2,-31 0,-31 C-2,-30 -4,-27 -5,-22 C-7,-12 -4,-4 0,0 Z"
             fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.4" stroke-opacity="0.45"/>
       <path d="M1,-30 C3,-26 4,-20 3,-14" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
       <ellipse cx="1" cy="-20" rx="2" ry="7" fill="#ffffff" opacity="0.45" transform="rotate(-8 1 -20)"/>
     </g>
-    <!-- 中央花瓣（圆润柔和，无垂直叶脉） -->
-    <g id="petalC">
-      <path d="M0,2 C-6,-3 -11,-12 -9,-22 C-7,-29 -3,-31 0,-31 C3,-30 7,-28 9,-22 C11,-12 6,-3 0,2 Z"
-            fill="url(#petalFillDeep)" stroke="#7c3aed" stroke-width="0.4" stroke-opacity="0.5"/>
-      <path d="M-1,-30 C-3,-26 -4,-19 -3,-13" stroke="#ffffff" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
-      <ellipse cx="-1" cy="-19" rx="1.8" ry="6" fill="#ffffff" opacity="0.35" transform="rotate(6 -1 -19)"/>
-    </g>
 
-    <!-- ========== 完整紫罗兰：五瓣真正均匀放射（每瓣 72°，同尺寸，无主导瓣） ========== -->
     <g id="violetElegant">
-      <!-- 五瓣绕中心均匀放射，略微错位避免机械感 -->
       <g transform="rotate(0) scale(0.98)"><use href="#petalL"/></g>
       <g transform="rotate(72) scale(1.0)"><use href="#petalR"/></g>
       <g transform="rotate(144) scale(0.97)"><use href="#petalL"/></g>
       <g transform="rotate(216) scale(1.0)"><use href="#petalR"/></g>
       <g transform="rotate(288) scale(0.98)"><use href="#petalL"/></g>
-      <!-- 花心 -->
       <ellipse rx="2.2" ry="1.3" fill="#fde68a" opacity="0.9"/>
       <circle r="0.8" fill="#fff7cc" opacity="0.95"/>
     </g>
 
-    <!-- 阴影 -->
+    <g id="fallPetal">
+      <path d="M0,0 C-3,-2.5 -6,-8 -5,-15 C-3.5,-20 -1.5,-21 0,-21 C1.5,-20 3.5,-18 5,-15 C6,-8 3,-2.5 0,0 Z"
+            fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.3" stroke-opacity="0.4"/>
+      <path d="M-0.5,-20 C-2,-17 -2.8,-13 -2,-9" stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    </g>
+
+    <g id="sparkle">
+      <path d="M0,-5 C0.7,-1.5 1.5,-0.7 5,0 C1.5,0.7 0.7,1.5 0,5 C-0.7,1.5 -1.5,0.7 -5,0 C-1.5,-0.7 -0.7,-1.5 0,-5 Z" fill="#fef9c3"/>
+    </g>
+
     <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
       <feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#7c3aed" flood-opacity="0.28"/>
     </filter>
     <filter id="petalShadow" x="-25%" y="-25%" width="150%" height="150%">
       <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#a855f7" flood-opacity="0.32"/>
     </filter>
-
-    <!-- 飘落单瓣 -->
-    <g id="fallPetal">
-      <path d="M0,0 C-3,-2.5 -6,-8 -5,-15 C-3.5,-20 -1.5,-21 0,-21 C1.5,-20 3.5,-18 5,-15 C6,-8 3,-2.5 0,0 Z"
-            fill="url(#petalFill)" stroke="#a855f7" stroke-width="0.3" stroke-opacity="0.4"/>
-      <path d="M-0.5,-20 C-2,-17 -2.8,-13 -2,-9" stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.6" stroke-linecap="round"/>
-    </g>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
   </defs>
 
-  <!-- 背景 -->
+  <!-- 背景 + 脉动光晕 -->
   <rect width="800" height="200" fill="url(#bg)"/>
-  <rect width="800" height="200" fill="url(#bgGlow)"/>
+  <rect width="800" height="200" fill="url(#bgGlow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- 远景飘落花瓣 -->
-  <g opacity="0.6" filter="url(#petalShadow)">
-    <use href="#fallPetal" transform="translate(115,35) rotate(20) scale(0.8)">
-      <animateTransform attributeName="transform" type="rotate" from="20" to="200" dur="15s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#fallPetal" transform="translate(685,155) rotate(-15) scale(0.7)">
-      <animateTransform attributeName="transform" type="rotate" from="-15" to="-195" dur="17s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#fallPetal" transform="translate(725,45) rotate(50) scale(0.6)"/>
-    <use href="#fallPetal" transform="translate(75,170) rotate(-30) scale(0.65)"/>
-  </g>
-
-  <!-- 中景飘落花瓣（围绕标题） -->
+  <!-- ========== 持续飘落花瓣（带飘移轨迹 + 旋转） ========== -->
   <g filter="url(#petalShadow)">
-    <use href="#fallPetal" transform="translate(58,55) rotate(30) scale(1.15)" opacity="0.92">
-      <animateTransform attributeName="transform" type="rotate" from="30" to="210" dur="10s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#fallPetal" transform="translate(742,58) rotate(-25) scale(1.1)" opacity="0.92">
-      <animateTransform attributeName="transform" type="rotate" from="-25" to="-205" dur="12s" repeatCount="indefinite" additive="sum"/>
-    </use>
-    <use href="#fallPetal" transform="translate(95,158) rotate(15) scale(1.0)" opacity="0.88"/>
-    <use href="#fallPetal" transform="translate(705,152) rotate(-40) scale(1.05)" opacity="0.9"/>
+    <g>
+      <use href="#fallPetal" transform="scale(0.7)">
+        <animateTransform attributeName="transform" type="translate" values="60,-30; 120,230" dur="9s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#fallPetal" transform="scale(0.85)">
+        <animateTransform attributeName="transform" type="translate" values="220,-40; 180,230" dur="11s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#fallPetal" transform="scale(0.65)">
+        <animateTransform attributeName="transform" type="translate" values="420,-50; 460,230" dur="10s" begin="-3s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="10s" begin="-3s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#fallPetal" transform="scale(0.75)">
+        <animateTransform attributeName="transform" type="translate" values="600,-30; 560,230" dur="12s" begin="-6s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="12s" begin="-6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#fallPetal" transform="scale(0.7)">
+        <animateTransform attributeName="transform" type="translate" values="740,-40; 700,230" dur="10s" begin="-2s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="10s" begin="-2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#fallPetal" transform="scale(0.55)">
+        <animateTransform attributeName="transform" type="translate" values="320,-40; 360,230" dur="13s" begin="-8s" repeatCount="indefinite"/>
+      </use>
+      <animate attributeName="opacity" values="0;0.75;0.75;0" keyTimes="0;0.1;0.9;1" dur="13s" begin="-8s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <!-- 两朵优雅紫罗兰（标题两侧） -->
-  <g transform="translate(120,102) scale(2.4)" filter="url(#petalShadow)">
-    <use href="#violetElegant"/>
-  </g>
-  <g transform="translate(680,102) scale(2.4)" filter="url(#petalShadow)">
-    <g transform="scale(-1,1)"><use href="#violetElegant"/></g>
+  <!-- 闪烁星光 -->
+  <g>
+    <use href="#sparkle" transform="translate(180,40) scale(0.6)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(620,35) scale(0.5)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(400,30) scale(0.5)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(560,170) scale(0.45)">
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.2s" repeatCount="indefinite"/>
+    </use>
+    <use href="#sparkle" transform="translate(250,165) scale(0.5)">
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.8s" repeatCount="indefinite"/>
+    </use>
   </g>
 
-  <!-- ========== 艺术字主标题（毛笔行书） ========== -->
+  <!-- 两侧紫罗兰（带轻微摇曳） -->
+  <g transform="translate(120,102)">
+    <g filter="url(#petalShadow)">
+      <use href="#violetElegant" transform="scale(2.4)">
+        <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="5s" repeatCount="indefinite" additive="sum"/>
+      </use>
+    </g>
+  </g>
+  <g transform="translate(680,102)">
+    <g filter="url(#petalShadow)">
+      <use href="#violetElegant" transform="scale(2.4)">
+        <animateTransform attributeName="transform" type="rotate" values="4;-4;4" dur="5.5s" repeatCount="indefinite" additive="sum"/>
+      </use>
+    </g>
+  </g>
+
+  <!-- ========== 艺术字主标题（呼吸光晕） ========== -->
+  <text x="400" y="124" text-anchor="middle" dominant-baseline="central" class="title-art"
+        font-size="76" letter-spacing="10"
+        fill="#c4b5fd" opacity="0.55" filter="url(#glow)">紫罗兰手札
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </text>
   <text x="400" y="124" text-anchor="middle" dominant-baseline="central" class="title-art"
         font-size="76" letter-spacing="10"
         fill="none" stroke="url(#strokeGrad)" stroke-width="2" stroke-linejoin="round" opacity="0.7">紫罗兰手札</text>
@@ -138,7 +174,6 @@
         font-size="76" letter-spacing="10"
         fill="url(#titleGrad)" filter="url(#softShadow)">紫罗兰手札</text>
 
-  <!-- 副标：优雅衬线斜体（与中文气质统一） -->
   <text x="400" y="172" text-anchor="middle"
         font-family="Georgia,'Palatino Linotype','Book Antiqua',Palatino,serif"
         font-style="italic" font-size="20" letter-spacing="4"
