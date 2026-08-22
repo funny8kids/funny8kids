@@ -39,8 +39,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=funny8kids&show_icons=true&theme=radical&count_private=true&hide_title=true" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=radical" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=funny8kids&show_icons=true&theme=radical&count_private=true&hide_title=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -49,12 +49,6 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=redical&area=true&hide_border=false" alt="Contribution Activity Graph" width="840" />
-</p>
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=darkhub&no-frame=true&margin-w=15&column=7" alt="GitHub Trophies" />
 </p>
 
 ---
