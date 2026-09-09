@@ -1,6 +1,6 @@
 <!-- ═══════════════════════ HERO ═══════════════════════ -->
 <div align="center">
-  <img src="flower.svg?v=2" alt="紫罗兰手札 · Violet Notes" width="700" />
+  <img src="violet-notes.svg" alt="紫罗兰手札 · Violet Notes" width="700" />
 </div>
 
 <p align="center">
