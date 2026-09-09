@@ -1,6 +1,6 @@
 <!-- ═══════════════════════ HERO ═══════════════════════ -->
 <div align="center">
-  <img src="flower.svg" alt="紫罗兰手札 · Violet Notes" width="800" />
+  <img src="flower.svg" alt="紫罗兰手札 · Violet Notes" width="700" />
 </div>
 
 <p align="center">
@@ -20,21 +20,14 @@
 <div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-<img align="right" width="330" src="violet-typing.gif" alt="薇尔莉特 · 打字写信" />
-
 ## 🌌 About Me
+
+<img align="right" width="320" src="violet-typing.gif" alt="薇尔莉特 · 打字写信" />
 
 - 🎯 **AI Native** — 无限进步，探索代码的边界，了解各大技术栈
 - 🧑‍💻 **极客爱好者** — 浏览各大博客社区，游荡 GitHub 交友社区
 - 🔒 **网络安全 / 渗透测试** — 有个做 Hacker 的梦，相信相信的力量
 - 🎮 **小工具爱好者** — 喜欢做一些小脚本、小工具
-
-```yaml
-# funny8kids.yml
-focus:     [ AI Native, Security, Open Source ]
-motto:     "无限进步 · Keep Building"
-currently: "把想法变成能跑起来的东西"
-```
 
 <br clear="right"/>
 
@@ -44,23 +37,35 @@ currently: "把想法变成能跑起来的东西"
 ## 💜 Tech Stack
 
 <p align="center">
-  <a href="https://www.java.com/" target="_blank"><img src="https://techstack-generator.vercel.app/java-icon.svg" width="58" height="58" alt="Java" /></a>
+  <a href="https://www.java.com/" target="_blank"><img src="https://techstack-generator.vercel.app/java-icon.svg" width="56" height="56" alt="Java" /></a>
   &nbsp;
-  <a href="https://www.python.org/" target="_blank"><img src="https://techstack-generator.vercel.app/python-icon.svg" width="58" height="58" alt="Python" /></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://techstack-generator.vercel.app/python-icon.svg" width="56" height="56" alt="Python" /></a>
   &nbsp;
-  <a href="https://github.com/" target="_blank"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="58" height="58" alt="GitHub" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://techstack-generator.vercel.app/ts-icon.svg" width="56" height="56" alt="TypeScript" /></a>
   &nbsp;
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="58" height="58" alt="MySQL" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://techstack-generator.vercel.app/js-icon.svg" width="56" height="56" alt="JavaScript" /></a>
   &nbsp;
-  <a href="https://www.nginx.org/" target="_blank"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="58" height="58" alt="Nginx" /></a>
+  <a href="https://react.dev/" target="_blank"><img src="https://techstack-generator.vercel.app/react-icon.svg" width="56" height="56" alt="React" /></a>
   &nbsp;
-  <a href="https://kubernetes.io/" target="_blank"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="58" height="58" alt="Kubernetes" /></a>
+  <a href="https://www.djangoproject.com/" target="_blank"><img src="https://techstack-generator.vercel.app/django-icon.svg" width="56" height="56" alt="Django" /></a>
   &nbsp;
-  <a href="https://www.docker.com/" target="_blank"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="58" height="58" alt="Docker" /></a>
+  <a href="https://graphql.org/" target="_blank"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="56" height="56" alt="GraphQL" /></a>
   &nbsp;
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="58" height="58" alt="AWS" /></a>
+  <a href="https://restfulapi.net/" target="_blank"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="56" height="56" alt="REST API" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/" target="_blank"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="56" height="56" alt="GitHub" /></a>
   &nbsp;
-  <a href="https://restfulapi.net/" target="_blank"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="58" height="58" alt="REST API" /></a>
+  <a href="https://www.mysql.com/" target="_blank"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="56" height="56" alt="MySQL" /></a>
+  &nbsp;
+  <a href="https://www.nginx.org/" target="_blank"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="56" height="56" alt="Nginx" /></a>
+  &nbsp;
+  <a href="https://kubernetes.io/" target="_blank"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="56" height="56" alt="Kubernetes" /></a>
+  &nbsp;
+  <a href="https://www.docker.com/" target="_blank"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="56" height="56" alt="Docker" /></a>
+  &nbsp;
+  <a href="https://aws.amazon.com/" target="_blank"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="56" height="56" alt="AWS" /></a>
 </p>
 
 <p align="center">
@@ -73,14 +78,6 @@ currently: "把想法变成能跑起来的东西"
 
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
 ## 📊 GitHub Stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=tokyonight&no-frame=true&row=1&column=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=flat&no-frame=true&row=1&column=8" />
-    <img src="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=tokyonight&no-frame=true&row=1&column=8" alt="Trophy" />
-  </picture>
-</p>
 
 <p align="center">
   <picture>
@@ -100,14 +97,6 @@ currently: "把想法变成能跑起来的东西"
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=funny8kids&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=funny8kids&hide_border=true&date_format=%5BY.%5Dn.j&background=ffffff&ring=7c3aed&fire=e94560&currStreakLabel=7c3aed&sideLabels=6d28d9&currStreakNum=4c1d95&sideNums=4c1d95&dates=8b8b8b" />
     <img src="https://streak-stats.demolab.com/?user=funny8kids&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=tokyo-night&area=true&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&bg_color=ffffff&color=4c1d95&line=8b5cf6&point=7c3aed&area=true&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=tokyo-night&area=true&hide_border=true" alt="Contribution Activity Graph" width="840" />
   </picture>
 </p>
 
@@ -147,14 +136,6 @@ currently: "把想法变成能跑起来的东西"
 
 <div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
-<!-- ═══════════════════════ RECENT ACTIVITY ═══════════════════════ -->
-## ⚡ Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
-
 <!-- ═══════════════════════ FUN ═══════════════════════ -->
 ## ✨ A Little Fun
 
@@ -175,93 +156,6 @@ currently: "把想法变成能跑起来的东西"
 </p>
 
 <div align="center"><img src="divider.svg" width="100%" alt="" /></div>
-
-<!-- ═══════════════════════ RESOURCES ═══════════════════════ -->
-## 🎁 免费资源合集 · Free GitHub Profile Resources
-
-> 做主页时用到的宝藏项目，全部免费开源，感谢每一位维护者 💜
-
-<details>
-<summary>📊 统计与数据展示</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) | 统计卡片（Stars、Commits、PRs、Issues 等） |
-| [Top Languages](https://github.com/anuraghazra/github-readme-stats#extras) | 常用语言排行卡片 |
-| [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | 连续提交天数统计 |
-| [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) | 贡献活跃度折线图 |
-| [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy) | 成就奖杯墙 |
-| [Waka Time Stats](https://github.com/anmol098/waka-readme-stats) | 编程时间统计（需 WakaTime） |
-| [GitHub Stats Visualization](https://github.com/jstrieb/github-stats) | 详细的统计信息可视化 |
-| [GitHub Contribution Stats](https://github.com/LordDashMe/github-contribution-stats) | 贡献统计卡片 |
-
-</details>
-
-<details>
-<summary>🎨 动画与视觉效果</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [Readme Typing SVG](https://readme-typing-svg.demolab.com/demo/) | 打字机动画效果 |
-| [Capsule Render](https://github.com/kyechan99/capsule-render) | 波浪 / 扭曲 / 透明横幅 |
-| [Platane/snk](https://github.com/Platane/snk) | 贪吃蛇贡献图动画 |
-| [Header Generator](https://github.com/leviarista/github-profile-header-generator) | 个人主页头图生成器 |
-| [GitHub Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) | 励志名言卡片 |
-| [Readme Jokes](https://github.com/ABSphreak/readme-jokes) | 随机编程笑话 |
-
-</details>
-
-<details>
-<summary>🛠️ 徽章与图标</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [Shields.io](https://shields.io/) | 万能徽章生成器 |
-| [Skill Icons](https://skillicons.dev/) | 技能图标（支持亮/暗主题） |
-| [Tech Stack Generator](https://github.com/qkrdmstlr3/techstack-generator) | 动态旋转技术栈图标 |
-| [Markdown Badges](https://github.com/Ileriayo/markdown-badges) | 常用技术/平台徽章合集 |
-| [Simple Icons](https://simpleicons.org/) | 1000+ 品牌 SVG 图标 |
-| [Devicon](https://devicon.dev/) | 开发者技术图标集 |
-
-</details>
-
-<details>
-<summary>📈 社交与互动</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter) | 主页访问计数 |
-| [Visitor Badge](https://github.com/jwenjian/visitor-badge) | 访问者徽章 |
-| [Spotify GitHub Profile](https://github.com/kittinan/spotify-github-profile) | 正在听的 Spotify 歌曲 |
-| [Latest Blog Posts](https://github.com/gautamkrishnar/blog-post-workflow) | 自动展示最新博客文章 |
-| [GitHub Readme Medium](https://github.com/omidnikrah/github-readme-medium) | Medium 文章展示 |
-| [GitHub Readme Twitter](https://github.com/gazf/github-readme-twitter) | 最新推文展示 |
-
-</details>
-
-<details>
-<summary>🧩 3D 与特殊效果</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [GitHub 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | 3D 贡献图 |
-| [GitHub Skyline](https://github.com/lowlighter/github-skyline) | GitHub 贡献天际线 |
-| [Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | 个人资料摘要卡片 |
-| [GitHub Profile Badge](https://github.com/Aveek-Saha/github-profile-badge) | 个人资料徽章 |
-
-</details>
-
-<details>
-<summary>📚 合集与工具</summary>
-
-| 资源 | 描述 |
-| --- | --- |
-| [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | ⭐ 最全的个人主页资源合集 |
-| [GitHub Profile README Generator](https://github.com/rahuldkjain/github-profile-readme-generator) | 在线可视化生成 README |
-| [Profileme](https://github.com/DenverCoder1/customizing-badges) | 徽章定制工具 |
-| [GitHub README Stats Themes](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md) | 统计卡片主题库 |
-
-</details>
 
 <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
 <p align="center">
