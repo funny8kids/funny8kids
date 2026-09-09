@@ -1,32 +1,47 @@
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
 <div align="center">
   <img src="flower.svg" alt="紫罗兰手札 · Violet Notes" width="800" />
 </div>
 
-<!-- 打字机效果 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=800&color=8b5cf6,a78bfa,c084fc&center=true&vCenter=true&width=720&height=60&lines=Hi+there%2C+I%27m+funny8kids+%F0%9F%91%8B;AI+Native+Developer;Open+Source+Enthusiast;Security+Researcher;Always+Learning%2C+Always+Building" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=8B5CF6&center=true&vCenter=true&width=720&height=50&lines=Building+dreams+in+code+%E2%9C%A6;AI+Native+Developer;Security+Researcher;Open+Source+Enthusiast;Always+learning%2C+always+shipping" alt="Typing SVG" />
 </p>
 
 <div align="center">
   <a href="https://github.com/funny8kids?tab=repositories&sort=stargazers">
-    <img alt="Total Stars" src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=1a1a2e&color=e94560&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Ffunny8kids" />
+    <img alt="Total Stars" src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=4c1d95&color=8b5cf6&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Ffunny8kids" />
   </a>
   <a href="https://github.com/funny8kids?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/funny8kids?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=1a1a2e&color=e94560" />
+    <img alt="Followers" src="https://img.shields.io/github/followers/funny8kids?style=for-the-badge&logo=github&logoColor=white&label=Follow&labelColor=4c1d95&color=8b5cf6" />
   </a>
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=funny8kids&label=Views&color=8b5cf6&style=for-the-badge" />
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-## 🌟 About Me
+<!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+<img align="right" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding" />
+
+## 🌌 About Me
 
 - 🎯 **AI Native** — 无限进步，探索代码的边界，了解各大技术栈
 - 🧑‍💻 **极客爱好者** — 浏览各大博客社区，游荡 GitHub 交友社区
 - 🔒 **网络安全 / 渗透测试** — 有个做 Hacker 的梦，相信相信的力量
 - 🎮 **小工具爱好者** — 喜欢做一些小脚本、小工具
 
-## 💻 Tech Stack
+```yaml
+# funny8kids.yml
+focus:     [ AI Native, Security, Open Source ]
+motto:     "无限进步 · Keep Building"
+currently: "把想法变成能跑起来的东西"
+```
+
+<br clear="right"/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
+## 💜 Tech Stack
 
 <p align="center">
   <a href="https://skillicons.dev" target="_blank">
@@ -34,34 +49,117 @@
   </a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
+<!-- ═══════════════════════ STATS ═══════════════════════ -->
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=funny8kids&show_icons=true&theme=radical&count_private=true&hide_title=true" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=radical" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=tokyonight&no-frame=true&row=1&column=8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=flat&no-frame=true&row=1&column=8" />
+    <img src="https://github-profile-trophy.vercel.app/?username=funny8kids&theme=tokyonight&no-frame=true&row=1&column=8" alt="Trophy" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=funny8kids&theme=radical&hide_border=false&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=funny8kids&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=funny8kids&show_icons=true&count_private=true&hide_border=true&title_color=7c3aed&icon_color=8b5cf6&text_color=4c1d95&bg_color=ffffff" />
+    <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=funny8kids&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=funny8kids&layout=compact&hide_border=true&title_color=7c3aed&text_color=4c1d95&bg_color=ffffff" />
+    <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=funny8kids&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=redical&area=true&hide_border=false" alt="Contribution Activity Graph" width="840" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=funny8kids&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=funny8kids&hide_border=true&date_format=%5BY.%5Dn.j&background=ffffff&ring=7c3aed&fire=e94560&currStreakLabel=7c3aed&sideLabels=6d28d9&currStreakNum=4c1d95&sideNums=4c1d95&dates=8b8b8b" />
+    <img src="https://streak-stats.demolab.com/?user=funny8kids&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j" alt="GitHub Streak" />
+  </picture>
 </p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=tokyo-night&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&bg_color=ffffff&color=4c1d95&line=8b5cf6&point=7c3aed&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=funny8kids&theme=tokyo-night&area=true&hide_border=true" alt="Contribution Activity Graph" width="840" />
+  </picture>
+</p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=funny8kids&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=funny8kids&theme=default" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=funny8kids&theme=tokyonight" alt="Profile Details" width="840" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=funny8kids&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=funny8kids&theme=default" />
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=funny8kids&theme=tokyonight" alt="Repos per Language" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=funny8kids&theme=tokyonight&utcOffset=8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=funny8kids&theme=default&utcOffset=8" />
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=funny8kids&theme=tokyonight&utcOffset=8" alt="Productive Time" />
+  </picture>
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ SNAKE ═══════════════════════ -->
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/funny8kids/funny8kids/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="840" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/funny8kids/funny8kids/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/funny8kids/funny8kids/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/funny8kids/funny8kids/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="840" />
+  </picture>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-## 💜 免费资源合集 · Free GitHub Profile Resources
+<!-- ═══════════════════════ RECENT ACTIVITY ═══════════════════════ -->
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ FUN ═══════════════════════ -->
+## ✨ A Little Fun
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-jokes.vercel.app/api?theme=default&hideBorder" />
+    <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
+  </picture>
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ RESOURCES ═══════════════════════ -->
+## 🎁 免费资源合集 · Free GitHub Profile Resources
+
+> 做主页时用到的宝藏项目，全部免费开源，感谢每一位维护者 💜
 
 <details>
 <summary>📊 统计与数据展示</summary>
@@ -90,7 +188,6 @@
 | [Header Generator](https://github.com/leviarista/github-profile-header-generator) | 个人主页头图生成器 |
 | [GitHub Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) | 励志名言卡片 |
 | [Readme Jokes](https://github.com/ABSphreak/readme-jokes) | 随机编程笑话 |
-| [GitHub Stats Animation](https://github.com/Akil-Aoki/github-readme-streak-stats) | 动画版统计卡片 |
 
 </details>
 
@@ -115,7 +212,6 @@
 | --- | --- |
 | [Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter) | 主页访问计数 |
 | [Visitor Badge](https://github.com/jwenjian/visitor-badge) | 访问者徽章 |
-| [GitHub Followers Badge](https://shields.io/) | 关注者数量徽章 |
 | [Spotify GitHub Profile](https://github.com/kittinan/spotify-github-profile) | 正在听的 Spotify 歌曲 |
 | [Latest Blog Posts](https://github.com/gautamkrishnar/blog-post-workflow) | 自动展示最新博客文章 |
 | [GitHub Readme Medium](https://github.com/omidnikrah/github-readme-medium) | Medium 文章展示 |
@@ -132,7 +228,6 @@
 | [GitHub Skyline](https://github.com/lowlighter/github-skyline) | GitHub 贡献天际线 |
 | [Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | 个人资料摘要卡片 |
 | [GitHub Profile Badge](https://github.com/Aveek-Saha/github-profile-badge) | 个人资料徽章 |
-| [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | 🔥 连续提交火焰统计 |
 
 </details>
 
@@ -148,8 +243,7 @@
 
 </details>
 
-<!-- 所有资源均为免费开源项目，感谢每一位维护者的付出 💜 -->
-
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:7c3aed,100:4c1d95&height=120&section=footer" />
 </p>
