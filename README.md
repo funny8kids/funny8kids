@@ -45,13 +45,27 @@
   &nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://techstack-generator.vercel.app/js-icon.svg" width="56" height="56" alt="JavaScript" /></a>
   &nbsp;
+  <a href="https://isocpp.org/" target="_blank"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="56" height="56" alt="C++" /></a>
+  &nbsp;
   <a href="https://react.dev/" target="_blank"><img src="https://techstack-generator.vercel.app/react-icon.svg" width="56" height="56" alt="React" /></a>
   &nbsp;
   <a href="https://www.djangoproject.com/" target="_blank"><img src="https://techstack-generator.vercel.app/django-icon.svg" width="56" height="56" alt="Django" /></a>
-  &nbsp;
+</p>
+
+<p align="center">
   <a href="https://graphql.org/" target="_blank"><img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="56" height="56" alt="GraphQL" /></a>
   &nbsp;
   <a href="https://restfulapi.net/" target="_blank"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="56" height="56" alt="REST API" /></a>
+  &nbsp;
+  <a href="https://redux.js.org/" target="_blank"><img src="https://techstack-generator.vercel.app/redux-icon.svg" width="56" height="56" alt="Redux" /></a>
+  &nbsp;
+  <a href="https://sass-lang.com/" target="_blank"><img src="https://techstack-generator.vercel.app/sass-icon.svg" width="56" height="56" alt="Sass" /></a>
+  &nbsp;
+  <a href="https://webpack.js.org/" target="_blank"><img src="https://techstack-generator.vercel.app/webpack-icon.svg" width="56" height="56" alt="Webpack" /></a>
+  &nbsp;
+  <a href="https://jestjs.io/" target="_blank"><img src="https://techstack-generator.vercel.app/jest-icon.svg" width="56" height="56" alt="Jest" /></a>
+  &nbsp;
+  <a href="https://eslint.org/" target="_blank"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" width="56" height="56" alt="ESLint" /></a>
 </p>
 
 <p align="center">
@@ -66,12 +80,6 @@
   <a href="https://www.docker.com/" target="_blank"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="56" height="56" alt="Docker" /></a>
   &nbsp;
   <a href="https://aws.amazon.com/" target="_blank"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="56" height="56" alt="AWS" /></a>
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=vue,react,js,ts,html,css,nodejs,vite,kali,ubuntu,linux,bash,powershell,vscode,git,gitlab,anaconda,pytorch,flask,django,fastapi,mongodb,redis&perline=11" alt="More Skills" />
-  </a>
 </p>
 
 <div align="center"><img src="divider.svg" width="100%" alt="" /></div>
@@ -147,17 +155,9 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-jokes.vercel.app/api?theme=default&hideBorder" />
-    <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
-  </picture>
-</p>
-
 <div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:7c3aed,100:4c1d95&height=120&section=footer" />
+  <img src="footer-signature.svg" alt="funny8kids 谨上 · 纸短情长" width="700" />
 </p>
