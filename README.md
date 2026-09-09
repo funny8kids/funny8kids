@@ -47,6 +47,8 @@
   &nbsp;
   <a href="https://isocpp.org/" target="_blank"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="56" height="56" alt="C++" /></a>
   &nbsp;
+  <a href="https://dotnet.microsoft.com/" target="_blank"><img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="56" height="56" alt="C#" /></a>
+  &nbsp;
   <a href="https://react.dev/" target="_blank"><img src="https://techstack-generator.vercel.app/react-icon.svg" width="56" height="56" alt="React" /></a>
   &nbsp;
   <a href="https://www.djangoproject.com/" target="_blank"><img src="https://techstack-generator.vercel.app/django-icon.svg" width="56" height="56" alt="Django" /></a>
@@ -61,6 +63,8 @@
   &nbsp;
   <a href="https://sass-lang.com/" target="_blank"><img src="https://techstack-generator.vercel.app/sass-icon.svg" width="56" height="56" alt="Sass" /></a>
   &nbsp;
+  <a href="https://www.gatsbyjs.com/" target="_blank"><img src="https://techstack-generator.vercel.app/gatsby-icon.svg" width="56" height="56" alt="Gatsby" /></a>
+  &nbsp;
   <a href="https://webpack.js.org/" target="_blank"><img src="https://techstack-generator.vercel.app/webpack-icon.svg" width="56" height="56" alt="Webpack" /></a>
   &nbsp;
   <a href="https://jestjs.io/" target="_blank"><img src="https://techstack-generator.vercel.app/jest-icon.svg" width="56" height="56" alt="Jest" /></a>
@@ -69,6 +73,10 @@
 </p>
 
 <p align="center">
+  <a href="https://prettier.io/" target="_blank"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="56" height="56" alt="Prettier" /></a>
+  &nbsp;
+  <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" width="56" height="56" alt="Raspberry Pi" /></a>
+  &nbsp;
   <a href="https://github.com/" target="_blank"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="56" height="56" alt="GitHub" /></a>
   &nbsp;
   <a href="https://www.mysql.com/" target="_blank"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="56" height="56" alt="MySQL" /></a>
