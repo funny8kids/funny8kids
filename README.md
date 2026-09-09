@@ -17,10 +17,10 @@
   <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=funny8kids&label=Views&color=8b5cf6&style=for-the-badge" />
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-<img align="right" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding" />
+<img align="right" width="330" src="violet-typing.gif" alt="薇尔莉特 · 打字写信" />
 
 ## 🌌 About Me
 
@@ -38,18 +38,38 @@ currently: "把想法变成能跑起来的东西"
 
 <br clear="right"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
 ## 💜 Tech Stack
 
 <p align="center">
+  <a href="https://www.java.com/" target="_blank"><img src="https://techstack-generator.vercel.app/java-icon.svg" width="58" height="58" alt="Java" /></a>
+  &nbsp;
+  <a href="https://www.python.org/" target="_blank"><img src="https://techstack-generator.vercel.app/python-icon.svg" width="58" height="58" alt="Python" /></a>
+  &nbsp;
+  <a href="https://github.com/" target="_blank"><img src="https://techstack-generator.vercel.app/github-icon.svg" width="58" height="58" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://www.mysql.com/" target="_blank"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="58" height="58" alt="MySQL" /></a>
+  &nbsp;
+  <a href="https://www.nginx.org/" target="_blank"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="58" height="58" alt="Nginx" /></a>
+  &nbsp;
+  <a href="https://kubernetes.io/" target="_blank"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="58" height="58" alt="Kubernetes" /></a>
+  &nbsp;
+  <a href="https://www.docker.com/" target="_blank"><img src="https://techstack-generator.vercel.app/docker-icon.svg" width="58" height="58" alt="Docker" /></a>
+  &nbsp;
+  <a href="https://aws.amazon.com/" target="_blank"><img src="https://techstack-generator.vercel.app/aws-icon.svg" width="58" height="58" alt="AWS" /></a>
+  &nbsp;
+  <a href="https://restfulapi.net/" target="_blank"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="58" height="58" alt="REST API" /></a>
+</p>
+
+<p align="center">
   <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=java,python,kali,ubuntu,nodejs,vue,react,js,ts,html,css,linux,vscode,git,github,gitlab,docker,kubernetes,aws,nginx,mysql,mongodb,redis,flask,django,anaconda,pytorch,bash,powershell,fastapi&perline=10" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=vue,react,js,ts,html,css,nodejs,vite,kali,ubuntu,linux,bash,powershell,vscode,git,gitlab,anaconda,pytorch,flask,django,fastapi,mongodb,redis&perline=11" alt="More Skills" />
   </a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ STATS ═══════════════════════ -->
 ## 📊 GitHub Stats
@@ -112,7 +132,7 @@ currently: "把想法变成能跑起来的东西"
   </picture>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ SNAKE ═══════════════════════ -->
 ## 🐍 Contribution Snake
@@ -125,7 +145,7 @@ currently: "把想法变成能跑起来的东西"
   </picture>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ RECENT ACTIVITY ═══════════════════════ -->
 ## ⚡ Recent Activity
@@ -133,7 +153,7 @@ currently: "把想法变成能跑起来的东西"
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ FUN ═══════════════════════ -->
 ## ✨ A Little Fun
@@ -154,7 +174,7 @@ currently: "把想法变成能跑起来的东西"
   </picture>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 <!-- ═══════════════════════ RESOURCES ═══════════════════════ -->
 ## 🎁 免费资源合集 · Free GitHub Profile Resources

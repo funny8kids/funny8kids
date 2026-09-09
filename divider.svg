@@ -1,0 +1,35 @@
+<svg width="840" height="26" viewBox="0 0 840 26" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="lineR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="diamond" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="40" y1="13" x2="396" y2="13" stroke="url(#lineL)" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="444" y1="13" x2="800" y2="13" stroke="url(#lineR)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <circle cx="40" cy="13" r="1.6" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="800" cy="13" r="1.6" fill="#a78bfa" opacity="0.6"/>
+
+  <g transform="translate(420,13)">
+    <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)" fill="none" stroke="url(#diamond)" stroke-width="1.2"/>
+    <rect x="-2.4" y="-2.4" width="4.8" height="4.8" transform="rotate(45)" fill="url(#diamond)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(402,13)">
+    <rect x="-2.6" y="-2.6" width="5.2" height="5.2" transform="rotate(45)" fill="#a78bfa" opacity="0.7"/>
+  </g>
+  <g transform="translate(438,13)">
+    <rect x="-2.6" y="-2.6" width="5.2" height="5.2" transform="rotate(45)" fill="#a78bfa" opacity="0.7"/>
+  </g>
+</svg>
