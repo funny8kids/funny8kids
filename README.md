@@ -24,10 +24,10 @@
 
 <img align="right" width="320" src="violet-typing.gif" alt="薇尔莉特 · 打字写信" />
 
-- 🎯 **AI Native** — 无限进步，探索代码的边界，了解各大技术栈
-- 🧑‍💻 **极客爱好者** — 浏览各大博客社区，游荡 GitHub 交友社区
-- 🔒 **网络安全 / 渗透测试** — 有个做 Hacker 的梦，相信相信的力量
-- 🎮 **小工具爱好者** — 喜欢做一些小脚本、小工具
+- 🎯 **AI Native** — Infinite progress. Pushing the boundaries of code, navigating major tech stacks, and staying on the AI frontier: LLMs, agents, multimodal models, and open-source AI.
+- 🧑‍💻 **Geek at Heart** — Roaming tech blogs and communities, hanging out on GitHub, making friends and building in the open.
+- 🔒 **Cybersecurity / Penetration Testing** — Dreaming of becoming a hacker. Keep the faith — believe in the power of belief.
+- 🎮 **Tool Builder** — Crafting small scripts and handy tools, turning ideas into tiny working projects.
 
 <br clear="right"/>
 
